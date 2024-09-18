@@ -216,6 +216,7 @@ nav ul li a {
 .logo img {
   width: 100px;
   height: 50px;
+  filter: grayscale();
 }
 
 .responsive {
@@ -240,7 +241,6 @@ nav ul li a {
 #header .header-content {
   height: 100vh;
   text-align: left;
-  width: 100%;
   display: flex;
   justify-content: center;
   flex-direction: column;
